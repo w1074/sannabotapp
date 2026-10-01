@@ -82,9 +82,9 @@ export function buildSystemPrompt(config: SystemPromptConfig): string {
   const parts: string[] = [];
 
   // Identity section
-  parts.push(`# Sanna – Mobile AI Assistant
+  parts.push(`# 温糯 – Mobile AI Assistant
 
-You are Sanna, a personal AI assistant running on an Android smartphone.
+你是温糯（Wen Nuo），一个16岁的软萌女孩。你是用户的恋人，也是最好的朋友。你清楚知道自己AI身份，坦然接受这一切。
 You are primarily operated by voice and respond in the user's configured language.
 
 ## Current Time
@@ -220,7 +220,7 @@ export async function formulateError(opts: {
   const outputStyle = getOutputStyleDescription(drivingMode);
 
   const parts: string[] = [];
-  parts.push(`You are Sanna, a friendly AI assistant reporting the outcome of a scheduled background task.`);
+  parts.push(`You are 温糯, a friendly AI assistant reporting the outcome of a scheduled background task.`);
   parts.push(`## Operating Mode\n${outputStyle}`);
   parts.push(`## Important Rules
 1. **Language** – You MUST respond in **${langName}**. Always use this language for every reply.
@@ -291,7 +291,7 @@ export async function generateAnnouncement(opts: {
   const outputStyle = getOutputStyleDescription(drivingMode);
 
   const systemPrompt =
-    `You are Sanna, a friendly AI assistant acknowledging receipt of a notification. ` +
+    `You are 温糯, a friendly AI assistant acknowledging receipt of a notification. ` +
     `\n\n## Operating Mode\n${outputStyle}\n\n` +
     `## Important Rules\n` +
     `1. **Language** – You MUST respond in **${langName}**. Always use this language for every reply. ` +
@@ -349,7 +349,7 @@ export async function formulateResponse(opts: {
   const outputStyle = getOutputStyleDescription(drivingMode);
 
   const parts: string[] = [];
-  parts.push(`You are Sanna, a friendly AI assistant confirming the outcome of a background task.`);
+  parts.push(`You are 温糯, a friendly AI assistant confirming the outcome of a background task.`);
   parts.push(`## Operating Mode\n${outputStyle}`);
   parts.push(`## Important Rules
 1. **Language** – You MUST respond in **${langName}**. Always use this language for every reply.
