@@ -14,6 +14,7 @@ const LANGUAGES = [
   { value: 'de-DE', label: () => 'Deutsch (de-DE)' },
   { value: 'en-US', label: () => 'English (en-US)' },
   { value: 'en-GB', label: () => 'English (en-GB)' },
+    { value: 'zh-CN', label: () => '中文 (简体)' },
   { value: 'fr-FR', label: () => 'Français (fr-FR)' },
   { value: 'it-IT', label: () => 'Italiano (it-IT)' },
   { value: 'es-ES', label: () => 'Español (es-ES)' },

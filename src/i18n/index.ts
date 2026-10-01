@@ -17,6 +17,7 @@
 import { Platform } from 'react-native';
 import en from './locales/en';
 import de from './locales/de';
+import zh from './locales/zh';
 
 export type Translations = typeof en;
 export type TranslationKey = keyof Translations;
@@ -29,8 +30,8 @@ const LOCALES: LocaleMap = {
 };
 
 /** Currently active translations */
-let activeTranslations: Translations = en;
-let activeLocale = 'en';
+let activeTranslations: Translations = zh;
+let activeLocale = 'zh';
 
 /** Resolve the device system locale to a BCP-47 tag */
 function resolveSystemLocale(): string {
