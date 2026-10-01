@@ -14,13 +14,13 @@ const en = {
   'app.onboarding.welcomeWithApiKey': 'Welcome to Sanna! 👋\n\nI\'m your AI assistant and I can help you with various tasks. You can talk to me or type messages.\n\nIn **Settings → Skills** you can enable and configure various features like Phone, SMS, Google Maps, and more.',
 
   // ── Common ──────────────────────────────────────────────────────────────
-  'common.edit': 'Edit',
-  'common.save': 'Save',
-  'common.cancel': 'Cancel',
-  'common.ok': 'OK',
+  'common.edit': '编辑',
+  'common.save': '保存',
+  'common.cancel': '取消',
+  'common.ok': '确定',
 
   // ── Alerts ───────────────────────────────────────────────────────────────
-  'alert.error': 'Error',
+  'alert.error': '错误',
   'alert.noApiKey.title': 'No API Key',
   'alert.noApiKey.message': 'Please enter an API key in Settings.',
   'alert.micPermission.title': 'Microphone permission missing',
@@ -36,7 +36,7 @@ const en = {
   'home.state.listening': 'Listening…',
   'home.state.processing': 'Thinking…',
   'home.state.speaking': 'Speaking…',
-  'home.state.error': 'Error',
+  'home.state.error': '错误',
 
   'home.mode.driving': '🚗 Driving',
   'home.mode.normal': '🏠 Normal',
@@ -60,14 +60,14 @@ const en = {
 
   // ── Settings ─────────────────────────────────────────────────────────────
   'settings.back': '← Back',
-  'settings.title': 'Settings',
+  'settings.title': '设置',
 
   'settings.section.provider': 'AI Provider',
   'settings.section.wakeWord': 'Wake Word',
-  'settings.section.language': 'Language',
-  'settings.section.soul': 'Persona',
-  'settings.section.skills': 'Skills',
-  'settings.section.about': 'About',
+  'settings.section.language': '语言',
+  'settings.section.soul': '人格',
+  'settings.section.skills': '技能',
+  'settings.section.about': '关于',
   'settings.about.debugLog': 'Debug Log',
   'settings.about.debugFileHint': 'Log file: Documents/sanna.txt',
 
@@ -76,8 +76,8 @@ const en = {
   'settings.clearHistory.description': 'Deletes all messages from the chat and the LLM memory.',
   'settings.clearHistory.confirm.title': 'Clear conversation?',
   'settings.clearHistory.confirm.message': 'All messages and the conversation memory will be permanently deleted.',
-  'settings.clearHistory.confirm.cancel': 'Cancel',
-  'settings.clearHistory.confirm.confirm': 'Clear',
+  'settings.clearHistory.confirm.cancel': '取消',
+  'settings.clearHistory.confirm.confirm': '清除',
   'settings.clearHistory.done': 'Conversation history cleared.',
 
   // Provider
@@ -94,7 +94,7 @@ const en = {
   'settings.provider.testConnection': 'Test Connection',
   'settings.provider.testingConnection': 'Testing...',
   'settings.provider.connectionSuccess': 'Connection successful!',
-  'settings.provider.connectionFailed': 'Connection failed',
+  'settings.provider.connectionFailed': '连接失败',
   'settings.provider.testError.noApiKey': 'Please enter an API Key before testing.',
   'settings.provider.testError.missingFields': 'Please enter both API Key, Base URL, and Model Name before testing.',
   'settings.provider.testSuccess.message': 'The endpoint responded successfully.\n\nResponse: "{response}"',
@@ -124,7 +124,7 @@ const en = {
   // SOUL
   'settings.soul.description': 'Define Sanna\'s personality and tone.',
   'settings.soul.dictate': 'Dictate',
-  'settings.soul.clear': 'Clear',
+  'settings.soul.clear': '清除',
   'settings.soul.clearConfirm': 'Delete all text?',
   'settings.soul.placeholder': 'Write your instructions here...',
   'settings.persona.memory.description': 'Personal Facts (like name, family, work, location, hobbies, favorites).',
@@ -144,8 +144,8 @@ const en = {
   'settings.skills.upload.errorDuplicate': 'A custom skill named "{name}" already exists. Delete it first before uploading again.',
   'settings.skills.deleteDynamic.title': 'Delete "{name}"?',
   'settings.skills.deleteDynamic.message': 'This custom skill will be removed. This cannot be undone.',
-  'settings.skills.deleteDynamic.cancel': 'Cancel',
-  'settings.skills.deleteDynamic.confirm': 'Delete',
+  'settings.skills.deleteDynamic.cancel': '取消',
+  'settings.skills.deleteDynamic.confirm': '删除',
   'settings.skills.badge.notInstalled': 'Not installed',
   'settings.skills.badge.notConfigured': 'Not configured',
   'settings.skills.badge.connected': '● Connected',
@@ -154,7 +154,7 @@ const en = {
   'settings.skills.clientIdMissing': 'Client ID missing – see DEVELOP.md',
   'settings.skills.button.connect': 'Connect',
   'settings.skills.button.disconnect': 'Disconnect',
-  'settings.skills.button.test': 'Test',
+  'settings.skills.button.test': '测试',
   'settings.skills.button.testing': 'Testing…',
   'settings.skills.testResult.ok': '✓ OK',
   'settings.skills.testResult.error': '✗ Error',
@@ -164,9 +164,9 @@ const en = {
   'settings.skills.notification.allowButton': 'Allow access',
   'settings.skills.disconnect.title': 'Disconnect {name}?',
   'settings.skills.disconnect.message': 'The saved credentials will be deleted.',
-  'settings.skills.disconnect.cancel': 'Cancel',
+  'settings.skills.disconnect.cancel': '取消',
   'settings.skills.disconnect.confirm': 'Disconnect',
-  'settings.skills.connectError.title': 'Connection failed',
+  'settings.skills.connectError.title': '连接失败',
 
   // Skill categories
   'settings.skills.category.communication': 'Communication',
@@ -177,11 +177,11 @@ const en = {
 
   // Evidence Modal
   'evidence.noDetails': 'No details available',
-  'evidence.close': 'Close',
+  'evidence.close': '关闭',
 
   // Debug Panel
   'debug.title': '🪲 Debug Log',
-  'debug.clear': 'Clear',
+  'debug.clear': '清除',
   'debug.close': '✕ Close',
   'debug.download': '📥 Download',
   'debug.empty': 'No logs yet. Send a message to get started.',
@@ -191,13 +191,13 @@ const en = {
   'debug.shareError.title': 'Unable to Share',
   'debug.shareError.message.generic': 'Failed to open the share dialog. The log may be too large or no sharing apps are available.',
   'debug.shareError.message.noApps': 'No apps available to share. Please install a file manager or messaging app.',
-  'debug.shareError.ok': 'OK',
+  'debug.shareError.ok': '确定',
   'debug.fileSaved.title': 'File Saved',
   'debug.fileSaved.message': 'The debug log was saved as a file because it is too large to share.\n\nFilename: {filename}\nLocation: {path}\nSize: {size} MB',
-  'debug.fileSaved.ok': 'OK',
+  'debug.fileSaved.ok': '确定',
   'debug.fileSaveError.title': 'Save Error',
   'debug.fileSaveError.message': 'The file could not be saved. Please check permissions.',
-  'debug.fileSaveError.ok': 'OK',
+  'debug.fileSaveError.ok': '确定',
 
   // Skill Test Evidence
   'evidence.iterations': 'Iterations: {count}',
@@ -219,7 +219,7 @@ const en = {
   // Service Client ID change confirmation
   'alert.serviceClientIdChanged.title': 'Disconnect service?',
   'alert.serviceClientIdChanged.message': 'Changing the {provider} Client ID will invalidate the existing connection. You will need to reconnect the service afterwards.',
-  'alert.serviceClientIdChanged.cancel': 'Cancel',
+  'alert.serviceClientIdChanged.cancel': '取消',
   'alert.serviceClientIdChanged.confirm': 'Change & disconnect',
 
   // Agent Iterations
@@ -234,7 +234,7 @@ const en = {
   'settings.agent.validationError': 'Please enter a value between 6 and 50',
 
   // History
-  'settings.section.history': 'History',
+  'settings.section.history': '历史',
   'settings.history.description': 'Configure LLM context history and persisted conversation history independently.',
   'settings.history.llmContextLabel': 'LLM Context History',
   'settings.history.llmContextDesc': 'Messages kept in prompt context (10–200)',
@@ -242,7 +242,7 @@ const en = {
   'settings.history.conversationHistoryDesc': 'Messages stored/shown in chat history (50–200)',
 
   // Avatar Menu
-  'menu.settings': 'Settings',
+  'menu.settings': '设置',
   'menu.debug': 'Debug Log',
   'menu.darkMode.dark': 'Light Mode',
   'menu.darkMode.light': 'Dark Mode',
@@ -256,14 +256,14 @@ const en = {
   'lists.empty': 'No lists found.\nCreate a list by telling Sanna e.g. "Add milk to the shopping list"',
   'lists.item.singular': 'item',
   'lists.item.plural': 'items',
-  'lists.editMode.button': 'Edit',
-  'lists.editMode.done': 'Done',
+  'lists.editMode.button': '编辑',
+  'lists.editMode.done': '完成',
   'lists.deleteList.button': 'Delete list',
   'lists.items.empty': 'List is empty',
   'lists.delete.title': 'Delete list',
   'lists.delete.message': 'Really delete this list?',
-  'lists.delete.cancel': 'Cancel',
-  'lists.delete.confirm': 'Delete',
+  'lists.delete.cancel': '取消',
+  'lists.delete.confirm': '删除',
 
   // Schedules Screen
   'schedules.title': 'Schedules',
@@ -277,13 +277,13 @@ const en = {
   'schedules.detail.lastExecuted': 'Last run',
   'schedules.status.active': '✅ Active',
   'schedules.status.disabled': '⏸️ Disabled',
-  'schedules.enable': 'Enable',
-  'schedules.disable': 'Disable',
+  'schedules.enable': '启用',
+  'schedules.disable': '禁用',
   'schedules.deleteButton': 'Delete entry',
   'schedules.delete.title': 'Delete entry?',
   'schedules.delete.message': 'Really delete this scheduled task?',
-  'schedules.delete.cancel': 'Cancel',
-  'schedules.delete.confirm': 'Delete',
+  'schedules.delete.cancel': '取消',
+  'schedules.delete.confirm': '删除',
   'schedules.recurrence.once': 'One-time',
   'schedules.recurrence.interval.minutes': 'Every {count} minutes',
   'schedules.recurrence.interval.hours': 'Every {hours} hours',
@@ -303,13 +303,13 @@ const en = {
   'notifListeners.detail.createdAt': 'Created',
   'notifListeners.status.active': '✅ Active',
   'notifListeners.status.disabled': '⏸️ Disabled',
-  'notifListeners.enable': 'Enable',
-  'notifListeners.disable': 'Disable',
+  'notifListeners.enable': '启用',
+  'notifListeners.disable': '禁用',
   'notifListeners.deleteButton': 'Delete rule',
   'notifListeners.delete.title': 'Delete rule?',
   'notifListeners.delete.message': 'Really delete this app rule?',
-  'notifListeners.delete.cancel': 'Cancel',
-  'notifListeners.delete.confirm': 'Delete',
+  'notifListeners.delete.cancel': '取消',
+  'notifListeners.delete.confirm': '删除',
   'notifListeners.skillDisabled': 'The "Notifications" skill is disabled. Go to **Settings → Skills** to enable it.',
 
   // Accessibility Hints Modal
@@ -317,13 +317,13 @@ const en = {
   'accessibilityHints.buttonDesc': 'Stored learning data for app automations',
   'accessibilityHints.title': 'Accessibility Hints',
   'accessibilityHints.empty': 'No hints stored yet.\nHints are created automatically after app automations.',
-  'accessibilityHints.close': 'Close',
+  'accessibilityHints.close': '关闭',
   'accessibilityHints.help': 'You can add additional hints by saying in the chat: "To send a message in WhatsApp, you need to first tap the search icon, then type the contact name and tap on the contact".',
   'accessibilityHints.deleteButton': 'Delete hints',
   'accessibilityHints.delete.title': 'Delete hints?',
   'accessibilityHints.delete.message': 'Really delete the stored hints for this app?',
-  'accessibilityHints.delete.cancel': 'Cancel',
-  'accessibilityHints.delete.confirm': 'Delete',
+  'accessibilityHints.delete.cancel': '取消',
+  'accessibilityHints.delete.confirm': '删除',
 
   // Services / OAuth Client IDs
   'settings.section.services': 'Services & OAuth',
@@ -348,14 +348,14 @@ const en = {
   // Journal Screen
   'journal.title': 'Journal',
   'journal.empty': 'No journal entries found.\nCreate an entry by telling Sanna e.g. "Make an entry in the journal that I went jogging today"',
-  'journal.filter.all': 'All',
+  'journal.filter.all': '全部',
   'journal.filter.empty': 'No entries in category "{category}"',
   'journal.tapForMore': 'Tap again for full content',
   'journal.deleteButton': 'Delete entry',
   'journal.delete.title': 'Delete entry?',
   'journal.delete.message': 'Really delete this journal entry?',
-  'journal.delete.cancel': 'Cancel',
-  'journal.delete.confirm': 'Delete',
+  'journal.delete.cancel': '取消',
+  'journal.delete.confirm': '删除',
   'journal.dateFrom': 'From',
   'journal.dateTo': 'To',
   'journal.pagination.previous': '← Previous',
